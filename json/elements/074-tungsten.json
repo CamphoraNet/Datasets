@@ -1,0 +1,36 @@
+{
+  "name": "Tungsten",
+  "appearance": "grayish white, lustrous",
+  "atomic_mass": 183.841,
+  "boil": 6203,
+  "category": "transition metal",
+  "density": 19.25,
+  "discovered_by": "Carl Wilhelm Scheele",
+  "melt": 3695,
+  "molar_heat": 24.27,
+  "named_by": null,
+  "number": 74,
+  "period": 6,
+  "phase": "Solid",
+  "source": "https://en.wikipedia.org/wiki/Tungsten",
+  "spectral_img": "https://commons.wikimedia.org/wiki/File:Tungsten_spectrum_visible.png",
+  "summary": "Tungsten, also known as wolfram, is a chemical element with symbol W and atomic number 74. The word tungsten comes from the Swedish language tung sten, which directly translates to heavy stone. Its name in Swedish is volfram, however, in order to distinguish it from scheelite, which in Swedish is alternatively named tungsten.",
+  "symbol": "W",
+  "xpos": 6,
+  "ypos": 6,
+  "shells": [
+    2,
+    8,
+    18,
+    32,
+    12,
+    2
+  ],
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d4 6s2",
+  "electron_affinity": 78.76,
+  "electronegativity_pauling": 2.36,
+  "ionization_energies": [
+    770,
+    1700
+  ]
+}

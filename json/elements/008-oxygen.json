@@ -1,0 +1,38 @@
+{
+  "name": "Oxygen",
+  "appearance": null,
+  "atomic_mass": 15.999,
+  "boil": 90.188,
+  "category": "diatomic nonmetal",
+  "density": 1.429,
+  "discovered_by": "Carl Wilhelm Scheele",
+  "melt": 54.36,
+  "molar_heat": null,
+  "named_by": "Antoine Lavoisier",
+  "number": 8,
+  "period": 2,
+  "phase": "Gas",
+  "source": "https://en.wikipedia.org/wiki/Oxygen",
+  "spectral_img": "https://commons.wikimedia.org/wiki/File:Oxygen_spectrum_visible.png",
+  "summary": "Oxygen is a chemical element with symbol O and atomic number 8. It is a member of the chalcogen group on the periodic table and is a highly reactive nonmetal and oxidizing agent that readily forms compounds (notably oxides) with most elements. By mass, oxygen is the third-most abundant element in the universe, after hydrogen and helium.",
+  "symbol": "O",
+  "xpos": 16,
+  "ypos": 2,
+  "shells": [
+    2,
+    6
+  ],
+  "electron_configuration": "1s2 2s2 2p4",
+  "electron_affinity": 140.976,
+  "electronegativity_pauling": 3.44,
+  "ionization_energies": [
+    1313.9,
+    3388.3,
+    5300.5,
+    7469.2,
+    10989.5,
+    13326.5,
+    71330,
+    84078
+  ]
+}

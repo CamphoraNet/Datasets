@@ -1,0 +1,39 @@
+{
+  "name": "Praseodymium",
+  "appearance": "grayish white",
+  "atomic_mass": 140.90767,
+  "boil": 3403,
+  "category": "lanthanide",
+  "density": 6.77,
+  "discovered_by": "Carl Auer von Welsbach",
+  "melt": 1208,
+  "molar_heat": 27.2,
+  "named_by": null,
+  "number": 59,
+  "period": 6,
+  "phase": "Solid",
+  "source": "https://en.wikipedia.org/wiki/Praseodymium",
+  "spectral_img": "https://commons.wikimedia.org/wiki/File:Praseodymium_spectrum_visible.png",
+  "summary": "Praseodymium is a chemical element with symbol Pr and atomic number 59. Praseodymium is a soft, silvery, malleable and ductile metal in the lanthanide group. It is valued for its magnetic, electrical, chemical, and optical properties.",
+  "symbol": "Pr",
+  "xpos": 5,
+  "ypos": 9,
+  "shells": [
+    2,
+    8,
+    18,
+    21,
+    8,
+    2
+  ],
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f3 5s2 5p6 6s2",
+  "electron_affinity": 93,
+  "electronegativity_pauling": 1.13,
+  "ionization_energies": [
+    527,
+    1020,
+    2086,
+    3761,
+    5551
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Helium",
+  "appearance": "colorless gas, exhibiting a red-orange glow when placed in a high-voltage electric field",
+  "atomic_mass": 4.002602,
+  "boil": 4.222,
+  "category": "noble gas",
+  "density": 0.1786,
+  "discovered_by": "Pierre Janssen",
+  "melt": 0.95,
+  "molar_heat": null,
+  "named_by": "Joseph Norman Lockyer",
+  "number": 2,
+  "period": 1,
+  "phase": "Gas",
+  "source": "https://en.wikipedia.org/wiki/Helium",
+  "spectral_img": "https://commons.wikimedia.org/wiki/File:Helium_spectrum_visible.png",
+  "summary": "Helium is a chemical element with symbol He and atomic number 2. It is a colorless, odorless, tasteless, non-toxic, inert, monatomic gas that heads the noble gas group in the periodic table. Its boiling and melting points are the lowest among all the elements.",
+  "symbol": "He",
+  "xpos": 18,
+  "ypos": 1,
+  "shells": [
+    2
+  ],
+  "electron_configuration": "1s2",
+  "electron_affinity": -48,
+  "electronegativity_pauling": null,
+  "ionization_energies": [
+    2372.3,
+    5250.5
+  ]
+}

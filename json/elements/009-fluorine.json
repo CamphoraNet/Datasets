@@ -1,0 +1,39 @@
+{
+  "name": "Fluorine",
+  "appearance": null,
+  "atomic_mass": 18.998404,
+  "boil": 85.03,
+  "category": "diatomic nonmetal",
+  "density": 1.696,
+  "discovered_by": "André-Marie Ampère",
+  "melt": 53.48,
+  "molar_heat": null,
+  "named_by": "Humphry Davy",
+  "number": 9,
+  "period": 2,
+  "phase": "Gas",
+  "source": "https://en.wikipedia.org/wiki/Fluorine",
+  "spectral_img": "https://commons.wikimedia.org/wiki/File:Fluorine_spectrum_visible.png",
+  "summary": "Fluorine is a chemical element with symbol F and atomic number 9. It is the lightest halogen and exists as a highly toxic pale yellow diatomic gas at standard conditions. As the most electronegative element, it is extremely reactive:almost all other elements, including some noble gases, form compounds with fluorine.",
+  "symbol": "F",
+  "xpos": 17,
+  "ypos": 2,
+  "shells": [
+    2,
+    7
+  ],
+  "electron_configuration": "1s2 2s2 2p5",
+  "electron_affinity": 328.1649,
+  "electronegativity_pauling": 3.98,
+  "ionization_energies": [
+    1681,
+    3374.2,
+    6050.4,
+    8407.7,
+    11022.7,
+    15164.1,
+    17868,
+    92038.1,
+    106434.3
+  ]
+}

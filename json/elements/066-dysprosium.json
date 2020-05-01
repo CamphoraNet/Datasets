@@ -1,0 +1,38 @@
+{
+  "name": "Dysprosium",
+  "appearance": "silvery white",
+  "atomic_mass": 162.5001,
+  "boil": 2840,
+  "category": "lanthanide",
+  "density": 8.54,
+  "discovered_by": "Lecoq de Boisbaudran",
+  "melt": 1680,
+  "molar_heat": 27.7,
+  "named_by": null,
+  "number": 66,
+  "period": 6,
+  "phase": "Solid",
+  "source": "https://en.wikipedia.org/wiki/Dysprosium",
+  "spectral_img": "https://commons.wikimedia.org/wiki/File:Dysprosium_spectrum_visible.png",
+  "summary": "Dysprosium is a chemical element with the symbol Dy and atomic number 66. It is a rare earth element with a metallic silver luster. Dysprosium is never found in nature as a free element, though it is found in various minerals, such as xenotime.",
+  "symbol": "Dy",
+  "xpos": 12,
+  "ypos": 9,
+  "shells": [
+    2,
+    8,
+    18,
+    28,
+    8,
+    2
+  ],
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f10 5s2 5p6 6s2",
+  "electron_affinity": 33.96,
+  "electronegativity_pauling": 1.22,
+  "ionization_energies": [
+    573,
+    1130,
+    2200,
+    3990
+  ]
+}

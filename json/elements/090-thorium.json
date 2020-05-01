@@ -1,0 +1,39 @@
+{
+  "name": "Thorium",
+  "appearance": "silvery, often with black tarnish",
+  "atomic_mass": 232.03773,
+  "boil": 5061,
+  "category": "actinide",
+  "density": 11.724,
+  "discovered_by": "Jöns Jakob Berzelius",
+  "melt": 2023,
+  "molar_heat": 26.23,
+  "named_by": null,
+  "number": 90,
+  "period": 7,
+  "phase": "Solid",
+  "source": "https://en.wikipedia.org/wiki/Thorium",
+  "spectral_img": "https://commons.wikimedia.org/wiki/File:Thorium_spectrum_visible.png",
+  "summary": "Thorium is a chemical element with symbol Th and atomic number 90. A radioactive actinide metal, thorium is one of only two significantly radioactive elements that still occur naturally in large quantities as a primordial element (the other being uranium). It was discovered in 1828 by the Norwegian Reverend and amateur mineralogist Morten Thrane Esmark and identified by the Swedish chemist Jöns Jakob Berzelius, who named it after Thor, the Norse god of thunder.",
+  "symbol": "Th",
+  "xpos": 4,
+  "ypos": 10,
+  "shells": [
+    2,
+    8,
+    18,
+    32,
+    18,
+    10,
+    2
+  ],
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s2 6p6 6d2 7s2",
+  "electron_affinity": 112.72,
+  "electronegativity_pauling": 1.3,
+  "ionization_energies": [
+    587,
+    1110,
+    1930,
+    2780
+  ]
+}

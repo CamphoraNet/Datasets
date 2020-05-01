@@ -1,0 +1,38 @@
+{
+  "name": "Terbium",
+  "appearance": "silvery white",
+  "atomic_mass": 158.92535,
+  "boil": 3396,
+  "category": "lanthanide",
+  "density": 8.23,
+  "discovered_by": "Carl Gustaf Mosander",
+  "melt": 1629,
+  "molar_heat": 28.91,
+  "named_by": null,
+  "number": 65,
+  "period": 6,
+  "phase": "Solid",
+  "source": "https://en.wikipedia.org/wiki/Terbium",
+  "spectral_img": "https://commons.wikimedia.org/wiki/File:Terbium_spectrum_visible.png",
+  "summary": "Terbium is a chemical element with symbol Tb and atomic number 65. It is a silvery-white rare earth metal that is malleable, ductile and soft enough to be cut with a knife. Terbium is never found in nature as a free element, but it is contained in many minerals, including cerite, gadolinite, monazite, xenotime and euxenite.",
+  "symbol": "Tb",
+  "xpos": 11,
+  "ypos": 9,
+  "shells": [
+    2,
+    8,
+    18,
+    27,
+    8,
+    2
+  ],
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f9 5s2 5p6 6s2",
+  "electron_affinity": 112.4,
+  "electronegativity_pauling": 1.1,
+  "ionization_energies": [
+    565.8,
+    1110,
+    2114,
+    3839
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Europium",
+  "appearance": null,
+  "atomic_mass": 151.9641,
+  "boil": 1802,
+  "category": "lanthanide",
+  "density": 5.264,
+  "discovered_by": "Eugène-Anatole Demarçay",
+  "melt": 1099,
+  "molar_heat": 27.66,
+  "named_by": null,
+  "number": 63,
+  "period": 6,
+  "phase": "Solid",
+  "source": "https://en.wikipedia.org/wiki/Europium",
+  "spectral_img": "https://commons.wikimedia.org/wiki/File:Europium_spectrum_visible.png",
+  "summary": "Europium is a chemical element with symbol Eu and atomic number 63. It was isolated in 1901 and is named after the continent of Europe. It is a moderately hard, silvery metal which readily oxidizes in air and water.",
+  "symbol": "Eu",
+  "xpos": 9,
+  "ypos": 9,
+  "shells": [
+    2,
+    8,
+    18,
+    25,
+    8,
+    2
+  ],
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f7 5s2 5p6 6s2",
+  "electron_affinity": 11.2,
+  "electronegativity_pauling": 1.2,
+  "ionization_energies": [
+    547.1,
+    1085,
+    2404,
+    4120
+  ]
+}

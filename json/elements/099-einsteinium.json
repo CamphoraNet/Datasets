@@ -1,0 +1,36 @@
+{
+  "name": "Einsteinium",
+  "appearance": "silver-colored",
+  "atomic_mass": 252,
+  "boil": 1269,
+  "category": "actinide",
+  "density": 8.84,
+  "discovered_by": "Lawrence Berkeley National Laboratory",
+  "melt": 1133,
+  "molar_heat": null,
+  "named_by": null,
+  "number": 99,
+  "period": 7,
+  "phase": "Solid",
+  "source": "https://en.wikipedia.org/wiki/Einsteinium",
+  "spectral_img": "https://commons.wikimedia.org/wiki/File:Einsteinium_spectrum_visible.png",
+  "summary": "Einsteinium is a synthetic element with symbol Es and atomic number 99. It is the seventh transuranic element, and an actinide. Einsteinium was discovered as a component of the debris of the first hydrogen bomb explosion in 1952, and named after Albert Einstein.",
+  "symbol": "Es",
+  "xpos": 13,
+  "ypos": 10,
+  "shells": [
+    2,
+    8,
+    18,
+    32,
+    29,
+    8,
+    2
+  ],
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f11 6s2 6p6 7s2",
+  "electron_affinity": -28.6,
+  "electronegativity_pauling": 1.3,
+  "ionization_energies": [
+    619
+  ]
+}

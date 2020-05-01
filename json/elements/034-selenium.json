@@ -1,0 +1,39 @@
+{
+  "name": "Selenium",
+  "appearance": "black, red, and gray (not pictured) allotropes",
+  "atomic_mass": 78.9718,
+  "boil": 958,
+  "category": "polyatomic nonmetal",
+  "density": 4.81,
+  "discovered_by": "Jöns Jakob Berzelius",
+  "melt": 494,
+  "molar_heat": 25.363,
+  "named_by": null,
+  "number": 34,
+  "period": 4,
+  "phase": "Solid",
+  "source": "https://en.wikipedia.org/wiki/Selenium",
+  "spectral_img": "https://commons.wikimedia.org/wiki/File:Selenium_spectrum_visible.png",
+  "summary": "Selenium is a chemical element with symbol Se and atomic number 34. It is a nonmetal with properties that are intermediate between those of its periodic table column-adjacent chalcogen elements sulfur and tellurium. It rarely occurs in its elemental state in nature, or as pure ore compounds.",
+  "symbol": "Se",
+  "xpos": 16,
+  "ypos": 4,
+  "shells": [
+    2,
+    8,
+    18,
+    6
+  ],
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p4",
+  "electron_affinity": 194.9587,
+  "electronegativity_pauling": 2.55,
+  "ionization_energies": [
+    941,
+    2045,
+    2973.7,
+    4144,
+    6590,
+    7880,
+    14990
+  ]
+}

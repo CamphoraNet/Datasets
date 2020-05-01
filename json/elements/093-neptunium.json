@@ -1,0 +1,36 @@
+{
+  "name": "Neptunium",
+  "appearance": "silvery metallic",
+  "atomic_mass": 237,
+  "boil": 4447,
+  "category": "actinide",
+  "density": 20.45,
+  "discovered_by": "Edwin McMillan",
+  "melt": 912,
+  "molar_heat": 29.46,
+  "named_by": null,
+  "number": 93,
+  "period": 7,
+  "phase": "Solid",
+  "source": "https://en.wikipedia.org/wiki/Neptunium",
+  "spectral_img": "https://commons.wikimedia.org/wiki/File:Neptunium_spectrum_visible.png",
+  "summary": "Neptunium is a chemical element with symbol Np and atomic number 93. A radioactive actinide metal, neptunium is the first transuranic element. Its position in the periodic table just after uranium, named after the planet Uranus, led to it being named after Neptune, the next planet beyond Uranus.",
+  "symbol": "Np",
+  "xpos": 7,
+  "ypos": 10,
+  "shells": [
+    2,
+    8,
+    18,
+    32,
+    22,
+    9,
+    2
+  ],
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f4 6s2 6p6 6d1 7s2",
+  "electron_affinity": 45.85,
+  "electronegativity_pauling": 1.36,
+  "ionization_energies": [
+    604.5
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Radium",
+  "appearance": "silvery white metallic",
+  "atomic_mass": 226,
+  "boil": 2010,
+  "category": "alkaline earth metal",
+  "density": 5.5,
+  "discovered_by": "Pierre Curie",
+  "melt": 1233,
+  "molar_heat": null,
+  "named_by": null,
+  "number": 88,
+  "period": 7,
+  "phase": "Solid",
+  "source": "https://en.wikipedia.org/wiki/Radium",
+  "spectral_img": "https://commons.wikimedia.org/wiki/File:Radium_spectrum_visible.png",
+  "summary": "Radium is a chemical element with symbol Ra and atomic number 88. It is the sixth element in group 2 of the periodic table, also known as the alkaline earth metals. Pure radium is almost colorless, but it readily combines with nitrogen (rather than oxygen) on exposure to air, forming a black surface layer of radium nitride (Ra3N2).",
+  "symbol": "Ra",
+  "xpos": 2,
+  "ypos": 7,
+  "shells": [
+    2,
+    8,
+    18,
+    32,
+    18,
+    8,
+    2
+  ],
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s2 6p6 7s2",
+  "electron_affinity": 9.6485,
+  "electronegativity_pauling": 0.9,
+  "ionization_energies": [
+    509.3,
+    979
+  ]
+}

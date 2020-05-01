@@ -1,0 +1,39 @@
+{
+  "name": "Lanthanum",
+  "appearance": "silvery white",
+  "atomic_mass": 138.90547,
+  "boil": 3737,
+  "category": "lanthanide",
+  "density": 6.162,
+  "discovered_by": "Carl Gustaf Mosander",
+  "melt": 1193,
+  "molar_heat": 27.11,
+  "named_by": null,
+  "number": 57,
+  "period": 6,
+  "phase": "Solid",
+  "source": "https://en.wikipedia.org/wiki/Lanthanum",
+  "spectral_img": "https://commons.wikimedia.org/wiki/File:Lanthanum_spectrum_visible.png",
+  "summary": "Lanthanum is a soft, ductile, silvery-white metallic chemical element with symbol La and atomic number 57. It tarnishes rapidly when exposed to air and is soft enough to be cut with a knife. It gave its name to the lanthanide series, a group of 15 similar elements between lanthanum and lutetium in the periodic table:it is also sometimes considered the first element of the 6th-period transition metals.",
+  "symbol": "La",
+  "xpos": 3,
+  "ypos": 9,
+  "shells": [
+    2,
+    8,
+    18,
+    18,
+    9,
+    2
+  ],
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 5d1 6s2",
+  "electron_affinity": 53,
+  "electronegativity_pauling": 1.1,
+  "ionization_energies": [
+    538.1,
+    1067,
+    1850.3,
+    4819,
+    5940
+  ]
+}

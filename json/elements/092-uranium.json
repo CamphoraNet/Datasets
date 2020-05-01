@@ -1,0 +1,37 @@
+{
+  "name": "Uranium",
+  "appearance": null,
+  "atomic_mass": 238.02892,
+  "boil": 4404,
+  "category": "actinide",
+  "density": 19.1,
+  "discovered_by": "Martin Heinrich Klaproth",
+  "melt": 1405.3,
+  "molar_heat": 27.665,
+  "named_by": null,
+  "number": 92,
+  "period": 7,
+  "phase": "Solid",
+  "source": "https://en.wikipedia.org/wiki/Uranium",
+  "spectral_img": "https://commons.wikimedia.org/wiki/File:Uranium_spectrum_visible.png",
+  "summary": "Uranium is a chemical element with symbol U and atomic number 92. It is a silvery-white metal in the actinide series of the periodic table. A uranium atom has 92 protons and 92 electrons, of which 6 are valence electrons.",
+  "symbol": "U",
+  "xpos": 6,
+  "ypos": 10,
+  "shells": [
+    2,
+    8,
+    18,
+    32,
+    21,
+    9,
+    2
+  ],
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 5f3 6s2 6p6 6d1 7s2",
+  "electron_affinity": 50.94,
+  "electronegativity_pauling": 1.38,
+  "ionization_energies": [
+    597.6,
+    1420
+  ]
+}

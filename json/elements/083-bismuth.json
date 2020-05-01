@@ -1,0 +1,40 @@
+{
+  "name": "Bismuth",
+  "appearance": "lustrous silver",
+  "atomic_mass": 208.98041,
+  "boil": 1837,
+  "category": "post-transition metal",
+  "density": 9.78,
+  "discovered_by": "Claude François Geoffroy",
+  "melt": 544.7,
+  "molar_heat": 25.52,
+  "named_by": null,
+  "number": 83,
+  "period": 6,
+  "phase": "Solid",
+  "source": "https://en.wikipedia.org/wiki/Bismuth",
+  "spectral_img": "https://commons.wikimedia.org/wiki/File:Bismuth_spectrum_visible.png",
+  "summary": "Bismuth is a chemical element with symbol Bi and atomic number 83. Bismuth, a pentavalent post-transition metal, chemically resembles arsenic and antimony. Elemental bismuth may occur naturally, although its sulfide and oxide form important commercial ores.",
+  "symbol": "Bi",
+  "xpos": 15,
+  "ypos": 6,
+  "shells": [
+    2,
+    8,
+    18,
+    32,
+    18,
+    5
+  ],
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s2 6p3",
+  "electron_affinity": 90.924,
+  "electronegativity_pauling": 2.02,
+  "ionization_energies": [
+    703,
+    1610,
+    2466,
+    4370,
+    5400,
+    8520
+  ]
+}

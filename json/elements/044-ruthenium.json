@@ -1,0 +1,36 @@
+{
+  "name": "Ruthenium",
+  "appearance": "silvery white metallic",
+  "atomic_mass": 101.072,
+  "boil": 4423,
+  "category": "transition metal",
+  "density": 12.45,
+  "discovered_by": "Karl Ernst Claus",
+  "melt": 2607,
+  "molar_heat": 24.06,
+  "named_by": null,
+  "number": 44,
+  "period": 5,
+  "phase": "Solid",
+  "source": "https://en.wikipedia.org/wiki/Ruthenium",
+  "spectral_img": "https://commons.wikimedia.org/wiki/File:Ruthenium_spectrum_visible.png",
+  "summary": "Ruthenium is a chemical element with symbol Ru and atomic number 44. It is a rare transition metal belonging to the platinum group of the periodic table. Like the other metals of the platinum group, ruthenium is inert to most other chemicals.",
+  "symbol": "Ru",
+  "xpos": 8,
+  "ypos": 5,
+  "shells": [
+    2,
+    8,
+    18,
+    15,
+    1
+  ],
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d7 5s1",
+  "electron_affinity": 100.96,
+  "electronegativity_pauling": 2.2,
+  "ionization_energies": [
+    710.2,
+    1620,
+    2747
+  ]
+}

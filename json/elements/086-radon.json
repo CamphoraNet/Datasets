@@ -1,0 +1,35 @@
+{
+  "name": "Radon",
+  "appearance": "colorless gas, occasionally glows green or red in discharge tubes",
+  "atomic_mass": 222,
+  "boil": 211.5,
+  "category": "noble gas",
+  "density": 9.73,
+  "discovered_by": "Friedrich Ernst Dorn",
+  "melt": 202,
+  "molar_heat": null,
+  "named_by": null,
+  "number": 86,
+  "period": 6,
+  "phase": "Gas",
+  "source": "https://en.wikipedia.org/wiki/Radon",
+  "spectral_img": "https://commons.wikimedia.org/wiki/File:Radon_spectrum_visible.png",
+  "summary": "Radon is a chemical element with symbol Rn and atomic number 86. It is a radioactive, colorless, odorless, tasteless noble gas, occurring naturally as a decay product of radium. Its most stable isotope, 222Rn, has a half-life of 3.8 days.",
+  "symbol": "Rn",
+  "xpos": 18,
+  "ypos": 6,
+  "shells": [
+    2,
+    8,
+    18,
+    32,
+    18,
+    8
+  ],
+  "electron_configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f14 5s2 5p6 5d10 6s2 6p6",
+  "electron_affinity": -68,
+  "electronegativity_pauling": 2.2,
+  "ionization_energies": [
+    1037
+  ]
+}

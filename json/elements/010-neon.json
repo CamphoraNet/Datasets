@@ -1,0 +1,43 @@
+{
+  "name": "Neon",
+  "appearance": "colorless gas exhibiting an orange-red glow when placed in a high voltage electric field",
+  "atomic_mass": 20.17976,
+  "boil": 27.104,
+  "category": "noble gas",
+  "density": 0.9002,
+  "discovered_by": [
+    "William Ramsay",
+    "Morris William Travers"
+  ],
+  "melt": 24.56,
+  "molar_heat": null,
+  "named_by": null,
+  "number": 10,
+  "period": 2,
+  "phase": "Gas",
+  "source": "https://en.wikipedia.org/wiki/Neon",
+  "spectral_img": "https://commons.wikimedia.org/wiki/File:Neon_spectrum_visible.png",
+  "summary": "Neon is a chemical element with symbol Ne and atomic number 10. It is in group 18 (noble gases) of the periodic table. Neon is a colorless, odorless, inert monatomic gas under standard conditions, with about two-thirds the density of air.",
+  "symbol": "Ne",
+  "xpos": 18,
+  "ypos": 2,
+  "shells": [
+    2,
+    8
+  ],
+  "electron_configuration": "1s2 2s2 2p6",
+  "electron_affinity": -116,
+  "electronegativity_pauling": null,
+  "ionization_energies": [
+    2080.7,
+    3952.3,
+    6122,
+    9371,
+    12177,
+    15238,
+    19999,
+    23069.5,
+    115379.5,
+    131432
+  ]
+}
