@@ -5,7 +5,11 @@
   "boil": 5869,
   "category": "transition metal",
   "density": 21.02,
-  "discovered_by": "Masataka Ogawa",
+  "discovered_by": [
+    "Ida Noddack",
+    "Walter Noddack",
+    "Masataka Ogawa"
+  ],
   "melt": 3459,
   "molar_heat": 25.48,
   "named_by": "Walter Noddack",
