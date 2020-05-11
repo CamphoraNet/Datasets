@@ -2172,7 +2172,10 @@
         "boil": 1235,
         "category": "post-transition metal",
         "density": 9.196,
-        "discovered_by": "Pierre Curie",
+        "discovered_by": [
+            "Marie Skłodowska Curie",
+            "Pierre Curie"
+        ],
         "melt": 527,
         "molar_heat": 26.4,
         "named_by": null,
@@ -2276,7 +2279,10 @@
         "boil": 2010,
         "category": "alkaline earth metal",
         "density": 5.5,
-        "discovered_by": "Pierre Curie",
+        "discovered_by": [
+            "Marie Skłodowska Curie",
+            "Pierre Curie"
+        ],
         "melt": 1233,
         "molar_heat": null,
         "named_by": null,
