@@ -2372,7 +2372,7 @@
         "period": 7,
         "phase": "Solid",
         "source": "https://en.wikipedia.org/wiki/Protactinium",
-        "spectral_img": null,
+        "spectral_img": "https://commons.wikimedia.org/wiki/File:Protactinium_spectrum_visible.png",
         "summary": "Protactinium is a chemical element with symbol Pa and atomic number 91. It is a dense, silvery-gray metal which readily reacts with oxygen, water vapor and inorganic acids. It forms various chemical compounds where protactinium is usually present in the oxidation state +5, but can also assume +4 and even +2 or +3 states.",
         "symbol": "Pa",
         "xpos": 5,
