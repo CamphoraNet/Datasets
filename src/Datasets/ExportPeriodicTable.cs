@@ -1,4 +1,5 @@
-﻿using System.Diagnostics.CodeAnalysis;
+using System;
+using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
@@ -16,6 +17,8 @@ namespace Camphora.Datasets {
 						GetBasePath() + @"json/periodic-table.min.json",
 						serializedJson
 					);
+
+					Console.WriteLine( "Updated minified JSON file of the periodic table..." );
 				}
 
 				foreach ( JObject element in o ) {
@@ -31,6 +34,8 @@ namespace Camphora.Datasets {
 							elementPath,
 							serializedJson
 						);
+
+						Console.WriteLine( $"Updated JSON file for {element["name"]}..." );
 					}
 				}
 			}
