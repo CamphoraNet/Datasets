@@ -1,12 +1,143 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datasets", "src\Datasets\Datasets.csproj", "{E42F2865-FCBB-47B3-AAE3-C3DCAF5CF9AD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datasets", "src\Datasets.csproj", "{E42F2865-FCBB-47B3-AAE3-C3DCAF5CF9AD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GitHub", "GitHub", "{1A9B60E8-B33E-44FA-8A86-E311F436015A}"
 	ProjectSection(SolutionItems) = preProject
 		LICENSE = LICENSE
 		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{C9292C62-E13B-4A7E-96C1-E6BD5FCD5DC4}"
+	ProjectSection(SolutionItems) = preProject
+		json\common-chemical-names.json = json\common-chemical-names.json
+		json\periodic-table.json = json\periodic-table.json
+		json\periodic-table.min.json = json\periodic-table.min.json
+		json\wikidata.json = json\wikidata.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "elements", "elements", "{C97B3794-88DC-4790-B86A-FC3E99ECF588}"
+	ProjectSection(SolutionItems) = preProject
+		json\elements\001-hydrogen.json = json\elements\001-hydrogen.json
+		json\elements\002-helium.json = json\elements\002-helium.json
+		json\elements\003-lithium.json = json\elements\003-lithium.json
+		json\elements\004-beryllium.json = json\elements\004-beryllium.json
+		json\elements\005-boron.json = json\elements\005-boron.json
+		json\elements\006-carbon.json = json\elements\006-carbon.json
+		json\elements\007-nitrogen.json = json\elements\007-nitrogen.json
+		json\elements\008-oxygen.json = json\elements\008-oxygen.json
+		json\elements\009-fluorine.json = json\elements\009-fluorine.json
+		json\elements\010-neon.json = json\elements\010-neon.json
+		json\elements\011-sodium.json = json\elements\011-sodium.json
+		json\elements\012-magnesium.json = json\elements\012-magnesium.json
+		json\elements\013-aluminium.json = json\elements\013-aluminium.json
+		json\elements\014-silicon.json = json\elements\014-silicon.json
+		json\elements\015-phosphorus.json = json\elements\015-phosphorus.json
+		json\elements\016-sulfur.json = json\elements\016-sulfur.json
+		json\elements\017-chlorine.json = json\elements\017-chlorine.json
+		json\elements\018-argon.json = json\elements\018-argon.json
+		json\elements\019-potassium.json = json\elements\019-potassium.json
+		json\elements\020-calcium.json = json\elements\020-calcium.json
+		json\elements\021-scandium.json = json\elements\021-scandium.json
+		json\elements\022-titanium.json = json\elements\022-titanium.json
+		json\elements\023-vanadium.json = json\elements\023-vanadium.json
+		json\elements\024-chromium.json = json\elements\024-chromium.json
+		json\elements\025-manganese.json = json\elements\025-manganese.json
+		json\elements\026-iron.json = json\elements\026-iron.json
+		json\elements\027-cobalt.json = json\elements\027-cobalt.json
+		json\elements\028-nickel.json = json\elements\028-nickel.json
+		json\elements\029-copper.json = json\elements\029-copper.json
+		json\elements\030-zinc.json = json\elements\030-zinc.json
+		json\elements\031-gallium.json = json\elements\031-gallium.json
+		json\elements\032-germanium.json = json\elements\032-germanium.json
+		json\elements\033-arsenic.json = json\elements\033-arsenic.json
+		json\elements\034-selenium.json = json\elements\034-selenium.json
+		json\elements\035-bromine.json = json\elements\035-bromine.json
+		json\elements\036-krypton.json = json\elements\036-krypton.json
+		json\elements\037-rubidium.json = json\elements\037-rubidium.json
+		json\elements\038-strontium.json = json\elements\038-strontium.json
+		json\elements\039-yttrium.json = json\elements\039-yttrium.json
+		json\elements\040-zirconium.json = json\elements\040-zirconium.json
+		json\elements\041-niobium.json = json\elements\041-niobium.json
+		json\elements\042-molybdenum.json = json\elements\042-molybdenum.json
+		json\elements\043-technetium.json = json\elements\043-technetium.json
+		json\elements\044-ruthenium.json = json\elements\044-ruthenium.json
+		json\elements\045-rhodium.json = json\elements\045-rhodium.json
+		json\elements\046-palladium.json = json\elements\046-palladium.json
+		json\elements\047-silver.json = json\elements\047-silver.json
+		json\elements\048-cadmium.json = json\elements\048-cadmium.json
+		json\elements\049-indium.json = json\elements\049-indium.json
+		json\elements\050-tin.json = json\elements\050-tin.json
+		json\elements\051-antimony.json = json\elements\051-antimony.json
+		json\elements\052-tellurium.json = json\elements\052-tellurium.json
+		json\elements\053-iodine.json = json\elements\053-iodine.json
+		json\elements\054-xenon.json = json\elements\054-xenon.json
+		json\elements\055-caesium.json = json\elements\055-caesium.json
+		json\elements\056-barium.json = json\elements\056-barium.json
+		json\elements\057-lanthanum.json = json\elements\057-lanthanum.json
+		json\elements\058-cerium.json = json\elements\058-cerium.json
+		json\elements\059-praseodymium.json = json\elements\059-praseodymium.json
+		json\elements\060-neodymium.json = json\elements\060-neodymium.json
+		json\elements\061-promethium.json = json\elements\061-promethium.json
+		json\elements\062-samarium.json = json\elements\062-samarium.json
+		json\elements\063-europium.json = json\elements\063-europium.json
+		json\elements\064-gadolinium.json = json\elements\064-gadolinium.json
+		json\elements\065-terbium.json = json\elements\065-terbium.json
+		json\elements\066-dysprosium.json = json\elements\066-dysprosium.json
+		json\elements\067-holmium.json = json\elements\067-holmium.json
+		json\elements\068-erbium.json = json\elements\068-erbium.json
+		json\elements\069-thulium.json = json\elements\069-thulium.json
+		json\elements\070-ytterbium.json = json\elements\070-ytterbium.json
+		json\elements\071-lutetium.json = json\elements\071-lutetium.json
+		json\elements\072-hafnium.json = json\elements\072-hafnium.json
+		json\elements\073-tantalum.json = json\elements\073-tantalum.json
+		json\elements\074-tungsten.json = json\elements\074-tungsten.json
+		json\elements\075-rhenium.json = json\elements\075-rhenium.json
+		json\elements\076-osmium.json = json\elements\076-osmium.json
+		json\elements\077-iridium.json = json\elements\077-iridium.json
+		json\elements\078-platinum.json = json\elements\078-platinum.json
+		json\elements\079-gold.json = json\elements\079-gold.json
+		json\elements\080-mercury.json = json\elements\080-mercury.json
+		json\elements\081-thallium.json = json\elements\081-thallium.json
+		json\elements\082-lead.json = json\elements\082-lead.json
+		json\elements\083-bismuth.json = json\elements\083-bismuth.json
+		json\elements\084-polonium.json = json\elements\084-polonium.json
+		json\elements\085-astatine.json = json\elements\085-astatine.json
+		json\elements\086-radon.json = json\elements\086-radon.json
+		json\elements\087-francium.json = json\elements\087-francium.json
+		json\elements\088-radium.json = json\elements\088-radium.json
+		json\elements\089-actinium.json = json\elements\089-actinium.json
+		json\elements\090-thorium.json = json\elements\090-thorium.json
+		json\elements\091-protactinium.json = json\elements\091-protactinium.json
+		json\elements\092-uranium.json = json\elements\092-uranium.json
+		json\elements\093-neptunium.json = json\elements\093-neptunium.json
+		json\elements\094-plutonium.json = json\elements\094-plutonium.json
+		json\elements\095-americium.json = json\elements\095-americium.json
+		json\elements\096-curium.json = json\elements\096-curium.json
+		json\elements\097-berkelium.json = json\elements\097-berkelium.json
+		json\elements\098-californium.json = json\elements\098-californium.json
+		json\elements\099-einsteinium.json = json\elements\099-einsteinium.json
+		json\elements\100-fermium.json = json\elements\100-fermium.json
+		json\elements\101-mendelevium.json = json\elements\101-mendelevium.json
+		json\elements\102-nobelium.json = json\elements\102-nobelium.json
+		json\elements\103-lawrencium.json = json\elements\103-lawrencium.json
+		json\elements\104-rutherfordium.json = json\elements\104-rutherfordium.json
+		json\elements\105-dubnium.json = json\elements\105-dubnium.json
+		json\elements\106-seaborgium.json = json\elements\106-seaborgium.json
+		json\elements\107-bohrium.json = json\elements\107-bohrium.json
+		json\elements\108-hassium.json = json\elements\108-hassium.json
+		json\elements\109-meitnerium.json = json\elements\109-meitnerium.json
+		json\elements\110-darmstadtium.json = json\elements\110-darmstadtium.json
+		json\elements\111-roentgenium.json = json\elements\111-roentgenium.json
+		json\elements\112-copernicium.json = json\elements\112-copernicium.json
+		json\elements\113-nihonium.json = json\elements\113-nihonium.json
+		json\elements\114-flerovium.json = json\elements\114-flerovium.json
+		json\elements\115-moscovium.json = json\elements\115-moscovium.json
+		json\elements\116-livermorium.json = json\elements\116-livermorium.json
+		json\elements\117-tennessine.json = json\elements\117-tennessine.json
+		json\elements\118-oganesson.json = json\elements\118-oganesson.json
+		json\elements\119-ununennium.json = json\elements\119-ununennium.json
 	EndProjectSection
 EndProject
 Global
@@ -47,5 +178,8 @@ Global
 		$3.SpaceWithinExpressionParentheses = True
 		$3.SpaceWithinOtherParentheses = True
 		$3.scope = text/x-csharp
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C97B3794-88DC-4790-B86A-FC3E99ECF588} = {C9292C62-E13B-4A7E-96C1-E6BD5FCD5DC4}
 	EndGlobalSection
 EndGlobal

@@ -403,3 +403,9 @@ ASALocalRun/
 
 # Local History for Visual Studio
 .localhistory/
+Datasets.sln
+Datasets.runtimeconfig.json
+Datasets.runtimeconfig.dev.json
+Datasets.dll
+Datasets.deps.json
+Newtonsoft.Json.dll
