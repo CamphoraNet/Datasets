@@ -1,14 +1,14 @@
-using System;
 using System.Diagnostics.CodeAnalysis;
 
 namespace Camphora.Datasets {
 	[ExcludeFromCodeCoverage]
 	public class Program {
 		public static void Main() {
-			var dataExporter = new PeriodicTableFileExporter(
-				new DataPathLookup()
-			);
+			var dataPathLookup = new DataPathLookup();
+			var restSummaryPatch = new WikipediaRestPatch( dataPathLookup );
+			restSummaryPatch.Apply();
 
+			var dataExporter = new PeriodicTableFileExporter( dataPathLookup );
 			dataExporter.Export();
 		}
 	}

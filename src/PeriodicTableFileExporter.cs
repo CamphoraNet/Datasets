@@ -15,14 +15,14 @@ namespace Camphora.Datasets {
 
 		public void Export() {
 			using StreamReader reader = File.OpenText( DataPathLookup.ToPeriodicTable() );
-			JArray o = (JArray)JToken.ReadFrom( new JsonTextReader( reader ) );
-			UpdateMinifiedTable( o );
-			UpdateEachElement( o );
+			JArray periodicTable = (JArray)JToken.ReadFrom( new JsonTextReader( reader ) );
+			UpdateMinifiedTable( periodicTable );
+			UpdateEachElement( periodicTable );
 			Console.WriteLine( "Export finished" );
 		}
 
-		private void UpdateEachElement( JArray o ) {
-			foreach ( JObject element in o ) {
+		private void UpdateEachElement( JArray periodicTable ) {
+			foreach ( JObject element in periodicTable ) {
 				string serializedJson =
 					JsonConvert.SerializeObject( element, Formatting.Indented ) + "\n";
 				string elementPath = DataPathLookup.ToElement( element );
@@ -37,8 +37,8 @@ namespace Camphora.Datasets {
 			}
 		}
 
-		private void UpdateMinifiedTable( JArray o ) {
-			string serializedJson = JsonConvert.SerializeObject( o, Formatting.None );
+		private void UpdateMinifiedTable( JArray periodicTable ) {
+			string serializedJson = JsonConvert.SerializeObject( periodicTable, Formatting.None );
 
 			File.WriteAllText( DataPathLookup.ToMinifiedTable(), serializedJson );
 			Console.WriteLine( "Updated minified JSON file of the periodic table..." );
