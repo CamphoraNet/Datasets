@@ -1,3 +1,4 @@
+using System;
 using System.IO;
 using System.Net;
 using Newtonsoft.Json;
@@ -18,12 +19,25 @@ namespace Camphora.Datasets {
 
 			JArray periodicTable = (JArray)JToken.ReadFrom( new JsonTextReader( reader ) );
 			foreach ( JObject element in periodicTable ) {
-				string elementWikiTitleName = GetElementWikiTitle( element );
-
-				string jsonRestString = wc.DownloadString( GetRestUrl( elementWikiTitleName ) );
-				JObject serializedJson = JObject.Parse( jsonRestString );
-				element["summary"] = serializedJson["extract"];
+				UpdateSummaryForEachElement( wc, element );
 			}
+
+			File.WriteAllText(
+				DataPathLookup.ToMinifiedTable(),
+				JsonConvert.SerializeObject( periodicTable, Formatting.Indented ) + "\n"
+			);
+
+			Console.WriteLine( "[Finished] Updating page summaries" );
+		}
+
+		private void UpdateSummaryForEachElement( WebClient wc, JObject element ) {
+			string elementWikiTitleName = GetElementWikiTitle( element );
+
+			string jsonRestString = wc.DownloadString( GetRestUrl( elementWikiTitleName ) );
+			JObject serializedJson = JObject.Parse( jsonRestString );
+			element["summary"] = serializedJson["extract"].ToString();
+
+			Console.WriteLine( $"Updating page summary for {element["name"]}..." );
 		}
 
 		private string GetElementWikiTitle( JObject element ) {

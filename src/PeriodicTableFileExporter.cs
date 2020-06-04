@@ -18,7 +18,7 @@ namespace Camphora.Datasets {
 			JArray periodicTable = (JArray)JToken.ReadFrom( new JsonTextReader( reader ) );
 			UpdateMinifiedTable( periodicTable );
 			UpdateEachElement( periodicTable );
-			Console.WriteLine( "Export finished" );
+			Console.WriteLine( "[Finished] Synchronizing files" );
 		}
 
 		private void UpdateEachElement( JArray periodicTable ) {
@@ -32,7 +32,7 @@ namespace Camphora.Datasets {
 				}
 				else {
 					File.WriteAllText( elementPath, serializedJson );
-					Console.WriteLine( $"Updated JSON file for {element["name"]}..." );
+					Console.WriteLine( $"Synchronized JSON file for {element["name"]}..." );
 				}
 			}
 		}
@@ -41,7 +41,7 @@ namespace Camphora.Datasets {
 			string serializedJson = JsonConvert.SerializeObject( periodicTable, Formatting.None );
 
 			File.WriteAllText( DataPathLookup.ToMinifiedTable(), serializedJson );
-			Console.WriteLine( "Updated minified JSON file of the periodic table..." );
+			Console.WriteLine( "Synchronized minified JSON file of the periodic table..." );
 		}
 	}
 }
