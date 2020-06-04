@@ -2,6 +2,12 @@
 	"files.exclude": {
 		"**/bin": true,
 		"**/obj": true,
-		".vs": true
+		".vs": true,
+		"Datasets.deps.json": true,
+		"Datasets.dll": true,
+		"Datasets.pdb": true,
+		"Datasets.runtimeconfig.dev.json": true,
+		"Datasets.runtimeconfig.json": true,
+		"Newtonsoft.Json.dll": true
 	}
 }
